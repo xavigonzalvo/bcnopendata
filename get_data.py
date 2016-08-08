@@ -8,6 +8,7 @@ HOUSING_CSV_2010 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=ht
 HOUSING_CSV_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2011_HABITATGES_2NA_MA.csv&name=opendata_2011_HABITATGES_2NA_MA.csv'
 HOUSING_CSV_2012 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2012_HABITATGES_2NA_MA.csv&name=opendata_2012_HABITATGES_2NA_MA.csv'
 HOUSING_CSV_2013 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2013_HABITATGES_2NA_MA.csv&name=opendata_2013_HABITATGES_2NA_MA.csv'
+HOUSING_2007_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2fh2maveanualt1b.csv&name=h2maveanualt1b.csv'
 
 housing_data = {
     'houses_2009': HOUSING_CSV_2009,
@@ -15,6 +16,7 @@ housing_data = {
     'houses_2011': HOUSING_CSV_2011,
     'houses_2012': HOUSING_CSV_2012,
     'houses_2013': HOUSING_CSV_2013,
+    'houses_2007_2011': HOUSING_2007_2011,
 }
 
 data_folder = 'data/'
