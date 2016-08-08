@@ -22,6 +22,10 @@ FAMILY_HOUSING_PER_YEAR_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-f
 
 HEATING_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2011_HABIT_PPAL_SEGONS_INSTAL1_CALEF2011.csv&name=HABIT_PPAL_SEGONS_INSTAL1_CALEF2011.csv'
 
+PEOPLE_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2011_HABIT_PPAL_SEGONS_NOMBRE_PERS_VIUEN2011.csv&name=HABIT_PPAL_SEGONS_NOMBRE_PERS_VIUEN2011.csv'
+
+ROOMS_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2011_HABIT_PPAL_SEGONS_NOM_HABIT2011.csv&name=HABIT_PPAL_SEGONS_NOM_HABIT2011.csv'
+
 housing_data = {
     'houses_2009': HOUSING_CSV_2009,
     'houses_2010': HOUSING_CSV_2010,
@@ -38,6 +42,8 @@ housing_data = {
     'family_housing_2011': FAMILY_HOUSING_2011,
     'family_housing_peryear_2011': FAMILY_HOUSING_PER_YEAR_2011,
     'heating_2011': HEATING_2011,
+    'people_2011': PEOPLE_2011,
+    'rooms_2011': ROOMS_2011,
 }
 
 data_folder = 'data/'

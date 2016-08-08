@@ -14,5 +14,12 @@ housing in neighborhoods. 2007-2011. Annual change (Base 2008 =
 
 - Cadastral value.
 
+- Family housings placed in buildings destined mainly to housing
+  according to typology.
+
 - Numero d'habitatges familiars situats en edificis destinats principalment a
   habitatge segons anys de construcció. Per barri.
+
+- Numero d'abitatges principals segons instal·lacions I: calefacció. 2011
+
+- Number of dwellings according to number of rooms. Data from the 2011
