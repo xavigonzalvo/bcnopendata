@@ -3,6 +3,10 @@
 Some code to play with the [Barcelona Open
 data](http://opendata.bcn.cat/opendata/en/catalog) initiave.
 
+## Dependencies
+
+- Google Flags: https://github.com/google/python-gflags
+
 ## Housing datasets
 
 - Estimated median sales price of second hand homes on offer (€/m2) of
