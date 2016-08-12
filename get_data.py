@@ -26,6 +26,12 @@ PEOPLE_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a
 
 ROOMS_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2011_HABIT_PPAL_SEGONS_NOM_HABIT2011.csv&name=HABIT_PPAL_SEGONS_NOM_HABIT2011.csv'
 
+SECOND_HAND_SALE_2009 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2009_HABITATGES_2NA_MA.csv&name=opendata_2009_HABITATGES_2NA_MA.csv'
+SECOND_HAND_SALE_2010 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2010_HABITATGES_2NA_MA.csv&name=opendata_2011_HABITATGES_2NA_MA.csv'
+SECOND_HAND_SALE_2011 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2011_HABITATGES_2NA_MA.csv&name=opendata_2011_HABITATGES_2NA_MA.csv'
+SECOND_HAND_SALE_2012 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2012_HABITATGES_2NA_MA.csv&name=opendata_2012_HABITATGES_2NA_MA.csv'
+SECOND_HAND_SALE_2013 = 'http://opendata.bcn.cat/opendata/en/descarrega-fitxer?url=http%3a%2f%2fbismartopendata.blob.core.windows.net%2fopendata%2fopendata%2f2013_HABITATGES_2NA_MA.csv&name=opendata_2013_HABITATGES_2NA_MA.csv'
+
 housing_data = {
     'houses_2009': HOUSING_CSV_2009,
     'houses_2010': HOUSING_CSV_2010,
@@ -44,6 +50,11 @@ housing_data = {
     'heating_2011': HEATING_2011,
     'people_2011': PEOPLE_2011,
     'rooms_2011': ROOMS_2011,
+    '2nd_hand_sale_2009': SECOND_HAND_SALE_2009,
+    '2nd_hand_sale_2010': SECOND_HAND_SALE_2010,
+    '2nd_hand_sale_2011': SECOND_HAND_SALE_2011,
+    '2nd_hand_sale_2012': SECOND_HAND_SALE_2012,
+    '2nd_hand_sale_2013': SECOND_HAND_SALE_2013,
 }
 
 data_folder = 'data/'

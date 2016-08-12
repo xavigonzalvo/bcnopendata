@@ -17,21 +17,37 @@ gflags.DEFINE_string('data_folder', 'data',
 FLAGS = gflags.FLAGS
 
 
+def to_num(num):
+    """Converts a comma-based float number."""
+    if not num:
+        return ''
+    if num.count('.') > 1:
+        num = num.replace('.', '')
+    if '.' in num and ',' in num:
+        num = num.replace('.', '')
+    return num.replace(',', '.')
+
+
 def main(argv):
     argv = FLAGS(argv)
     prices = [
-        'houses_2009',
-        'houses_2010',
-        'houses_2011',
-        'houses_2012',
-        'houses_2013',
+        #'houses_2009',
+        #'houses_2010',
+        #'houses_2011',
+        #'houses_2012',
+        #'houses_2013',
+        '2nd_hand_sale_2009',
+        '2nd_hand_sale_2010',
+        '2nd_hand_sale_2011',
+        '2nd_hand_sale_2012',
+        '2nd_hand_sale_2013',
     ]
 
     districte_re = re.compile(r'(^\d+)\.')
     # A dictionary indexed by districte that contains a list of feature values.
     new_rows = {}
     # The name of the features.
-    cols = []
+    cols = ['districte']
 
     # First the new_rows is initialized with the key (i.e. districte).
     for price_id in prices:
@@ -47,7 +63,7 @@ def main(argv):
                 districte = districte[0]
                 if districte not in new_rows:
                     new_rows[districte] = []
-                new_rows[districte].append(row[2])
+                new_rows[districte].append(to_num(row[2]))
 
     # Next, new features are added for each "districte".
     cadastrals = [
@@ -78,7 +94,7 @@ def main(argv):
                 for value in row[2:]:
                     if not value:
                         break
-                    new_rows[districte].append(value)
+                    new_rows[districte].append(to_num(value))
 
     print 'cols:', cols
     print 'Districtes:', new_rows.keys()
